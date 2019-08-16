@@ -1,0 +1,75 @@
+#barra1{
+	height: 5%;
+	background-color: dimgray;
+	position: relative;
+	width: 80%;
+	margin: 10%;
+	border: solid 2px #e8af47;
+}
+#barra1 #progresso1{
+	position: absolute;
+	height: 100%;
+	background-color: #e8af47;
+	animation: progress-animation1 2s ;
+	animation-fill-mode: forwards;
+}
+@keyframes progress-animation1{
+	from{ width: 0%;}
+	to {width: 70%;}
+}
+#html{
+	font-size: 20px;
+	margin-left: 91%;
+	margin-top: -10%;
+	color: white;
+}
+#barra2{
+	height: 5%;
+	background-color: dimgray;
+	position: relative;
+	width: 80%;
+	margin: 10%;
+	border: solid 2px #e8af47;
+}
+#barra2 #progresso2{
+	position: absolute;
+	height: 100%;
+	background-color: #e8af47;
+	animation: progress-animation2 2s ;
+	animation-fill-mode: forwards;
+}
+@keyframes progress-animation2{
+	from{ width: 0%;}
+	to {width: 80%;}
+}
+#css{
+ font-size: 20px;
+margin-left: 93%;
+margin-top: -10%;
+color: white;
+}
+#barra3{
+	height: 5%;
+	background-color: dimgray;
+	position: relative;
+	width: 80%;
+	margin: 10%;
+	border: solid 2px #e8af47;
+}
+#barra3 #progresso3{
+	position: absolute;
+	height: 100%;
+	background-color: #e8af47;
+	animation: progress-animation3 2s ;
+	animation-fill-mode: forwards;
+}
+@keyframes progress-animation3{
+	from{ width: 0%;}
+	to {width: 10%;}
+}
+#javascript{
+ font-size: 20px;
+margin-left: 80%;
+margin-top: -10%;
+color: white;
+}
